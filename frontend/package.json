@@ -1,0 +1,51 @@
+{
+  "name": "auracheck-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AuraCheck weather application",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "axios": "^1.6.2",
+    "lucide-react": "^0.294.0",
+    "mapbox-gl": "^2.15.0",
+    "react-map-gl": "^7.1.3",
+    "socket.io-client": "^4.7.4",
+    "framer-motion": "^10.16.16",
+    "react-webcam": "^7.1.1",
+    "date-fns": "^2.30.0",
+    "recharts": "^2.8.0",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/mapbox-gl": "^2.7.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
